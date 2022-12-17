@@ -25,7 +25,7 @@ static
 *.so
 
 # Distribution / packaging
-.Python
+
 build/
 develop-eggs/
 dist/
