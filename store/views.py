@@ -54,3 +54,4 @@ def search(request):
             'keyword':keyword
         }
     return render(request, 'store/store.html',context=context)
+

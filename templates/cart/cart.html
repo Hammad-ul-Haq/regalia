@@ -107,7 +107,8 @@
 			<p class="text-center mb-3">
 
 			</p>
-			<a href="./place-order.html" class="btn btn-primary btn-block"> Checkout </a>
+			<a href="{% url 'cart:checkout'%}" class="btn btn-primary btn-block"> Checkout </a>
+			<a href="{% url 'store:store' %}" class="btn btn-primary btn-block"> Continue Shopping </a>
 
 		</div> <!-- card-body.// -->
 		</div> <!-- card.// -->
